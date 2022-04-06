@@ -1,4 +1,3 @@
-```cpp
 int threeSumMulti(vector<int>& arr, int target) {
         int maxi = *max_element(arr.begin(),arr.end());
         vector<int> count(maxi+1,0);
@@ -34,4 +33,3 @@ int threeSumMulti(vector<int>& arr, int target) {
         }
         return ans;
     }
-    ```
